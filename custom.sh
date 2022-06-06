@@ -16,6 +16,7 @@ sed -i 's/IMG_PREFIX:=\$(VERSION_DIST_SANITIZED)/IMG_PREFIX:=$(shell date +%Y%m%
 #5. 
 sed -i 's/\+libgd\s/\+libgd-full /g' package/feeds/packages/bandwidthd/Makefile
 echo > feeds/packages/net/nginx-util/files/nginx.config
+sed -i 's?h=${g}?h=${g//Default string\\\/Default string/SOFT ROUTER}?' package/lean/autocore/files/x86/autocore
 
 #6
 find package/feeds -name filebrowser | xargs -I {} sed -i 's#stop$#stop; export HOME="/root"#' {}/files/filebrowser.init

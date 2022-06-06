@@ -1,5 +1,9 @@
 #!/bin/bash
 echo "src-link krystic ../../packages" >> feeds.conf.default 
+cat ../feeds.conf.custom >> feeds.conf.default
+
+rm -rf feeds/luci/applications/luci-app-cifs-mount
+rm -rf feeds/luci/themes/luci-theme-argon
 
 #git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
 #git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter

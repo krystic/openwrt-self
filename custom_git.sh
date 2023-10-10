@@ -1,7 +1,8 @@
 #!/bin/bash
-echo "src-link krystic ../../packages" >> feeds.conf.default 
+# echo "src-link krystic ../../packages" >> feeds.conf.default 
 cat ../feeds.conf.custom >> feeds.conf.default
 
+rm -rf feeds/lienol/net/xray-core
 rm -rf feeds/luci/applications/luci-app-cifs-mount
 rm -rf feeds/luci/themes/luci-theme-argon
 

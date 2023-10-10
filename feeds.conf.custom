@@ -1,9 +1,10 @@
+src-git krystic https://github.com/krystic/package-self.git
+src-git helloworld https://github.com/fw876/helloworld.git
 src-git lienol https://github.com/Lienol/openwrt-packages.git
+
 #src-git kenzo https://github.com/kenzok8/openwrt-packages.git
 #src-git small https://github.com/kenzok8/small.git
 #src-git small8 https://github.com/kenzok8/small-package.git
-src-git ssrp https://github.com/fw876/helloworld.git
 #src-git ifit https://github.com/kenzok8/luci-theme-ifit.git
 #src-git jerrykuku https://github.com/jerrykuku/openwrt-package.git
 #src-git sirpdboy https://github.com/sirpdboy/sirpdboy-package.git
-src-git krystic https://github.com/krystic/package-self.git
